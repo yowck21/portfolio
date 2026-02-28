@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yow Chi Kit | SIT Portfolio</title>
+  <meta name="description" content="SIT university application portfolio — Applied Computing (FinTech) & ICT (Information Security)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top">
+        <span class="brand__dot"></span>
+        <span class="brand__name">Yow Chi Kit</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#project">Project</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#sit">Why SIT</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="navbtn" id="navbtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="hero">
+    <div class="container hero__grid">
+      <section class="hero__left">
+        <div class="pill">SIT Application Portfolio</div>
+        <h1 class="hero__title">
+          FinTech Systems Builder <span class="muted">|</span> Applied AI Integrator <span class="muted">|</span> Payments Innovator
+        </h1>
+        <p class="hero__desc">
+          Building practical financial systems through API integrations, tokenized ledgers, and secure architecture thinking.
+          <br/>
+          <span class="muted">First choice:</span> Applied Computing (FinTech) · <span class="muted">Second choice:</span> ICT (Information Security)
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#project">View Featured Project</a>
+          <a class="btn btn--ghost" href="./assets/sit_portfolio.pdf" target="_blank" rel="noopener">Download PDF Portfolio</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__kpi">Top 3</div>
+            <div class="stat__label">Outstanding Project Presentation</div>
+          </div>
+          <div class="stat">
+            <div class="stat__kpi">End-to-end</div>
+            <div class="stat__label">NETS QR → Ledger → Token Deduction</div>
+          </div>
+          <div class="stat">
+            <div class="stat__kpi">2 Tracks</div>
+            <div class="stat__label">FinTech + Security Alignment</div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="hero__right">
+        <div class="card profile">
+          <div class="profile__img" aria-label="Profile image placeholder">
+            <!-- Optional: replace with <img src="./assets/profile.jpg" alt="Yow Chi Kit" /> -->
+            <div class="profile__placeholder">YC</div>
+          </div>
+          <div class="profile__meta">
+            <h2 class="profile__name">Yow Chi Kit</h2>
+            <p class="profile__sub">Nanyang Polytechnic · Business & Financial Technology</p>
+
+            <div class="chips">
+              <span class="chip">API Integration</span>
+              <span class="chip">Token Ledger</span>
+              <span class="chip">AI Monetization</span>
+              <span class="chip">Security Mindset</span>
+            </div>
+
+            <div class="profile__links">
+              <a class="link" href="#contact">Contact</a>
+              <a class="link" href="#sit">Programme Fit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mini">
+          <h3 class="card__title">Snapshot</h3>
+          <ul class="checklist">
+            <li>Led a team of 5 through delivery pressure</li>
+            <li>Built NETS QR top-up via NETS Sandbox API</li>
+            <li>Designed RMT token ledger (1 SGD = 1 RMT)</li>
+            <li>Deducted tokens based on AI usage (100 words = 1 token)</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Featured Project -->
+  <section id="project" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Featured Project</h2>
+        <p class="muted">Business Innovation Project (BIPJ) · Wealth Management AI Monetization System</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3 class="card__title">Problem</h3>
+          <p>
+            “How might we leverage AI to help wealth management relationship managers reduce administrative overhead
+            while identifying new revenue opportunities?”
+          </p>
+
+          <div class="divider"></div>
+
+          <h3 class="card__title">What I Built</h3>
+          <ul class="bullets">
+            <li><b>NETS QR top-up</b> integrated using the <b>NETS Sandbox API</b></li>
+            <li><b>Tokenized ledger</b> for Relationship Management Tokens (RMT): <b>$1 = 1 RMT</b></li>
+            <li><b>AI usage charging model</b>: every <b>100 AI-generated words</b> deducts <b>1 token</b></li>
+            <li><b>Backend validation</b>: transaction logging + ledger reconciliation</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Architecture (Simple View)</h3>
+          <div class="diagram">
+            <div class="node">NETS QR Top-Up<br/><span class="muted">Sandbox API</span></div>
+            <div class="arrow">→</div>
+            <div class="node">Ledger Service<br/><span class="muted">RMT balance</span></div>
+            <div class="arrow">→</div>
+            <div class="node">AI Chatbot<br/><span class="muted">Word count</span></div>
+            <div class="arrow">→</div>
+            <div class="node">Token Deduction<br/><span class="muted">100 words = 1 RMT</span></div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="badgeRow">
+            <span class="badge">Leadership</span>
+            <span class="badge">Payments</span>
+            <span class="badge">Tokenization</span>
+            <span class="badge">AI Monetization</span>
+          </div>
+
+          <p class="note">
+            Recognized by faculty and selected as <b>Top 3</b> for <b>Outstanding Project Presentation</b>.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid3">
+        <div class="card kpi">
+          <div class="kpi__num">Team of 5</div>
+          <div class="kpi__text">Led deliverables under uneven commitment and time pressure</div>
+        </div>
+        <div class="card kpi">
+          <div class="kpi__num">End-to-end</div>
+          <div class="kpi__text">Payment → balance update → AI usage → token deduction</div>
+        </div>
+        <div class="card kpi">
+          <div class="kpi__num">Product logic</div>
+          <div class="kpi__text">Sustainable utility model for chatbot revenue generation</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Technical Capabilities</h2>
+        <p class="muted">Built for applied computing and secure system thinking</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3 class="card__title">Build & Ship</h3>
+          <ul class="bullets">
+            <li>Python, JavaScript, HTML, CSS</li>
+            <li>API integration and validation logic</li>
+            <li>Database / ledger-style tracking</li>
+            <li>Testing mindset & edge-case handling</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">FinTech + Security</h3>
+          <ul class="bullets">
+            <li>Digital payments and system flow reasoning</li>
+            <li>Tokenization concepts (value representation + rules)</li>
+            <li>Networking fundamentals + secure integration mindset</li>
+            <li>Cyber competitions exposure (CTF-style problem solving)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Experience</h2>
+        <p class="muted">Real-world exposure to fintech usability and user support</p>
+      </div>
+
+      <div class="card timeline">
+        <div class="timeline__row">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__top">
+              <h3>Digital Advocate · United Overseas Bank (UOB)</h3>
+              <span class="muted">2022 – 2023</span>
+            </div>
+            <ul class="bullets">
+              <li>Supported customers with mobile banking app troubleshooting and onboarding</li>
+              <li>Translated technical steps into simple guidance for different user profiles</li>
+              <li>Assisted with ATM operations and digital banking adoption</li>
+              <li>Strengthened communication, patience, and structured problem solving</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="timeline__row">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__top">
+              <h3>Cyber & FinTech Exposure</h3>
+              <span class="muted">Activities</span>
+            </div>
+            <ul class="bullets">
+              <li>Hack N Flag youth cyber exploration programme (NULLSEC + CSA)</li>
+              <li>YCEP central capture the flag (CSA + Cybint)</li>
+              <li>“Rearchitecting the Financial System” course (Elevandi + SFF)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why SIT -->
+  <section id="sit" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Programme Fit (SIT)</h2>
+        <p class="muted">Two choices, one direction: building secure, applied financial systems</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3 class="card__title">1st Choice: Applied Computing (FinTech)</h3>
+          <p>
+            My BIPJ project aligns closely with applied fintech: payment systems, token accounting logic,
+            and practical deployment thinking. I enjoy building systems that work end-to-end, not just prototypes.
+          </p>
+          <ul class="bullets">
+            <li>Digital payments & platform integration</li>
+            <li>Token ledger rules & monetization models</li>
+            <li>Product + engineering execution</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">2nd Choice: ICT (Information Security)</h3>
+          <p>
+            FinTech systems must be secure by design. I’m motivated to deepen my ability to build resilient systems
+            by learning security foundations, secure integration practices, and system integrity principles.
+          </p>
+          <ul class="bullets">
+            <li>Secure API handling & validation mindset</li>
+            <li>Networking and security fundamentals</li>
+            <li>Risk-aware system design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Contact</h2>
+        <p class="muted">Open to discussions, interviews, and project showcases</p>
+      </div>
+
+      <div class="card contact">
+        <div class="contact__grid">
+          <div>
+            <div class="contact__label">Phone</div>
+            <div class="contact__value">+65 93393618</div>
+          </div>
+          <div>
+            <div class="contact__label">Email</div>
+            <div class="contact__value">230586Y@mymail.nyp.edu.sg</div>
+          </div>
+          <div>
+            <div class="contact__label">LinkedIn</div>
+            <div class="contact__value">linkedin.com/in/yow-chi-kit-6743b92b4</div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="contact__cta">
+          <a class="btn btn--primary" href="./assets/sit_portfolio.pdf" target="_blank" rel="noopener">View PDF Portfolio</a>
+          <button class="btn btn--ghost" id="copyEmail">Copy Email</button>
+        </div>
+
+        <p class="note muted">Tip: attach this link + PDF in your SIT submission if possible.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="muted">© <span id="year"></span> Yow Chi Kit · Built for SIT application</span>
+      <a class="muted" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
